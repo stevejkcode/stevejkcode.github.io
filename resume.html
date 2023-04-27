@@ -614,6 +614,10 @@ h2.section-title {
 				<section class="section">
 					<h2 class='section-title'>Experience</h2>
 					<section id="work">
+						<header>
+							<h3 class="name">
+								Capital One
+							</h3>
 							<div class="date">
 								<span class="startDate">
 									March 2016
@@ -625,10 +629,10 @@ h2.section-title {
 						</header>
 						<div class="item">
 						<div class="position">
-							Mid - Sr Backend Engineer
+							Mid Backend Developer
 						</div>
 						<div class="summary">
-							<p>I worked for ~6.5 years as a mid to senior backend engineer for Capital One on multiple projects. My largest project involved a platform to make performing and managing automated security scans easier for developers which was used across the company. Gradually the focus shifted to smaller microservices, and I helped design and implement a more modern ingestion setup for WhiteSource findings using Lambda functions. I also worked on a larger finding ingestion and attribution platform composed of microservices, built using Lambda functions with DynamoDB as the database layer.</p>
+							<p>Developed Cyber Security solutions to enable developers to build secure software early in the development lifecycle. Principle engineer and architect on a platform to orchestrate and automate static and open source scanners for teams across the enterprise while also improving reporting and finding quality.</p>
 						</div>
 						<ul class="highlights">
 							<li>- Instrumental in the design of a software project that helped make it easier for developers across the company to write secure code.</li>
@@ -637,6 +641,62 @@ h2.section-title {
 							<li>- Designed and implemented solutions for distributed work systems using SQS and Bull, which is an open source job queue framework that uses Redis.</li>
 							<li>- Reviewed and helped mentor the work of more junior team members through PRs and informal pair programming sessions.</li>
 							<li>- Co-author of <a href="https://patents.google.com/patent/US10387659B1/en?oq=10387659">US Patent No. 10,387,659</a> for the de-duplication of static source code security findings.</li>
+							<li>- Developed disaster recovery plans and carried them out successfully during internal exercises.</li>
+						</ul>
+					</div>
+						<header>
+							<h3 class="name">
+								CFPB
+							</h3>
+							<div class="date">
+								<span class="startDate">
+									November 2014
+								</span>
+								<span class="endDate">
+									- December 2015
+								</span>
+							</div>
+						</header>
+						<div class="item">
+						<div class="position">
+							Jr. Backend Developer
+						</div>
+						<div class="summary">
+							<p>Backend software developer working on tools to facilitate consumer protections and regulatory oversight. Developed a linting tool to help improve data quality for regulator submissions via a rules engine with rules defined in a flexible JSON schema.</p>
+						</div>
+						<ul class="highlights">
+							<li>- Created a business rule engine which uses flexible JSON specifications.</li>
+							<li>- Wrote unit tests for all code I developed using mocha.js and must.js.</li>
+							<li>- Developed a REST API for querying against public data (Census, etc) using kraken.js.</li>
+							<li>- Used MongoDB for persistence along with Mongoose as an ODM.</li>
+						</ul>
+					</div>
+						<header>
+							<h3 class="name">
+								FCC
+							</h3>
+							<div class="date">
+								<span class="startDate">
+									March 2014
+								</span>
+								<span class="endDate">
+									- November 2014
+								</span>
+							</div>
+						</header>
+						<div class="item">
+						<div class="position">
+							Jr. Backend Developer
+						</div>
+						<div class="summary">
+							<p>Developed backend Python code for aggregating and displaying cellular internet performance testing results.</p>
+						</div>
+						<ul class="highlights">
+							<li>- Produced daily aggregate statistics for cellular internet performance testing results using Python.</li>
+							<li>- Worked with stake holders to gather requirements and ensure the process was able to meet stringent regulations, especially regarding user privacy.</li>
+							<li>- Designed and published maps using Tilemill.</li>
+							<li>- Designed data models in Mongo for storing aggregate statistics.</li>
+							<li>- Performed geospacial queries in Mongo for bucketing results.</li>
 						</ul>
 					</div>
 					</section>
@@ -674,7 +734,7 @@ h2.section-title {
 							</header>
 							<div class="item">
 									<div class="studyType">
-										Bachelor
+										Bachelors
 									</div>
 									<div class="area">
 										Computer Engineering
@@ -683,10 +743,6 @@ h2.section-title {
 					</section>
 				</section>
 
-
-
-
-
 				<section class="section">
 					<h2 class='section-title'>Skills</h2>
 					<section id="skills">
@@ -694,12 +750,13 @@ h2.section-title {
 							<div class="name">
 								Backend Development
 							</div>
-							<div class="level senior">
-								<em>Senior</em>
+							<div class="level mid">
+								<em>Mid</em>
 								<div class="bar"></div>
 							</div>
 							<ul class="keywords">
 								<li>JavaScript</li>
+								<li>NodeJS</li>
 								<li>Python</li>
 							</ul>
 						</div>
@@ -707,8 +764,8 @@ h2.section-title {
 							<div class="name">
 								Database Design
 							</div>
-							<div class="level senior">
-								<em>Senior</em>
+							<div class="level mid">
+								<em>Mid</em>
 								<div class="bar"></div>
 							</div>
 							<ul class="keywords">
@@ -736,7 +793,73 @@ h2.section-title {
 				</section>
 
 
+				<section class="section">
+					<h2 class='section-title'>Volunteer</h2>
+					<section id="volunteer">
+								<header>
+									<h3 class="company">
+										DSA National Tech Committee
+									</h3>
+									<div class="date">
+										<span class="startDate">
+											December 2022
+										</span>
+										<span class="endDate">
+											- Present
+										</span>
+								</header>
+							<div class="item">
+							<div class="position">
+								Volunteer
+							</div>
+							<div class="website">
+								<a href="https://tech.dsausa.org/">https://tech.dsausa.org/</a>
+							</div>
+							<div class="summary">
+								<p>I joined the DSA NTC where I have been helping with the development of myDSA, a centralized authentication and registration solution which uses KeyCloak as an identity provider and allows users to update their registration and profile information as well as log in to various other DSA services from a single location.</p>
+							</div>
+							<ul class="highlights">
+								<li>For my main project, I designed and built a solution for SSO onboarding for other DSA development teams using Github Issues forms along with Github Actions to create,  maintain, and execute Terraform code which can register user applications within Keycloak. I"ve also assisted development teams with the overall onboarding process, helping with the initial form, reviewing their form submissions, and helping integrate their app with SSO once they"ve been registered with Keycloak.</li>
+							</ul>
+						</div>
+					</section>
+				</section>
 
+
+
+
+
+
+				<section class="section">
+					<h2 class='section-title'>Projects</h2>
+					<section id="projects">
+
+							<header>
+								<h3 class="name">
+									EasyVocab
+								</h3>
+								<div class="date">
+									<span class="startDate">
+										July 2022
+									</span>
+									<span class="endDate">
+										- August 2022
+									</span>
+								</div>
+							</header>
+						
+							<div class="item">
+							<div class="website">
+								<a href="https://ankiweb.net/shared/info/203110167">https://ankiweb.net/shared/info/203110167</a>
+							</div>
+							<div class="summary">
+								<p>EasyVocab is an Anki plugin I wrote to enable easy and automatic generation of flashcards for foreign language vocabulary study.</p>
+							</div>
+							<ul class="highlights">
+								<li>Users can input a list of words they would like to study and EasyVocab will use Google Translate to automatically generate beautiful flash cards. Google TTS is also utilized to create audio pronunciation for each word, and reverse cards which have English on the front and the user"s target language on the back can also be created to help develop a two way association the words in both languages.</li>
+							</ul>
+					</section>
+				</section>
 
 		</div>
 	</body>
